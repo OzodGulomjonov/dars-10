@@ -1,0 +1,122 @@
+.main-features__text {
+   font-weight: 500;
+   font-size: 21.4632px;
+   line-height: 26px;   
+   color: #03101A;
+}
+
+.main-features-section {
+   padding-top: 50px;
+}
+
+.main-features__list {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+@media only screen and (max-width:900px) {
+   
+   .main-features__list {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .main-features__item {
+      margin-top: 40px;
+   }
+}
+
+@media only screen and (max-width:320px) {
+
+   .main-features__img {
+      max-width: 270px;
+   }
+}
+
+.main-features__content {
+   padding-top: 150px;
+}
+
+.main-features__heading {
+   font-weight: 700;
+   font-size: 38px;
+   line-height: 46px;   
+   color: #03101A;
+}
+
+.main-features__content-list {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+.main-features__content-item {
+   display: flex;
+   align-items: center;
+}
+
+.main-features__content-text-wrapper {
+   margin-left: 30px;
+}
+
+.main-features__content-str {
+   font-weight: 500;
+   font-size: 21px;
+   line-height: 25px;   
+   color: #03101A;
+}
+
+.main-features__content-text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;   
+   color: #03101A;
+   opacity: 0.7;
+   max-width: 446px;
+}
+
+.main-features__content {
+   display: flex;
+   align-items: center;
+}
+
+.main-features__text-wrapper {
+   margin-left: auto;
+}
+
+@media only screen and (max-width:860px) {
+   
+   .main-features__content {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .main-features__text-wrapper {
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   .main-features__content-text  {
+      max-width: 270px;
+   }
+
+   .main-features__content-item {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+   }
+
+   .main-features__heading {
+      text-align: center;
+      max-width: 270px;
+   }
+
+   .main-features__content-text-wrapper {
+      margin-left: 0;
+   }
+}
+

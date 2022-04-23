@@ -1,0 +1,140 @@
+.site-footer {
+   background-color: rgba(3, 16, 26, 1);
+}
+
+.site-footer__content {
+  display: flex;
+  align-items: center;
+}
+
+.site-footer__heading {
+   font-weight: 700;
+   font-size: 30.95px;
+   line-height: 37px;   
+   color: #FFFFFF;
+}
+
+.site-footer__list-wrapper {
+   margin-top: 120px;
+   display: flex;
+   align-items: center;
+}
+
+.site-footer__text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;   
+   color: #FFFFFF;
+   opacity: 0.7; 
+   max-width: 327px;
+}
+
+.site-footer__supportlist {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   display: flex;
+   flex-direction: column;
+}
+
+.site-footer__supporttext {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;   
+   color: #FFFFFF;
+   opacity: 0.7;
+}
+
+.site-footer__supportlink {
+   font-weight: 500;
+   font-size: 21px;
+   line-height: 25px;   
+   color: #FFFFFF;
+}
+
+.site-footer__input {
+   background-color: #FFFFFF;
+   border: none;
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-bottom: 13px;
+   padding-right: 125px;
+   margin-top: 25px;
+   border-radius: 5px;
+
+   &::placeholder {
+      color: #03101A;
+      opacity: 0.7;
+   }
+}
+
+.site-footer__button {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 150%;   
+   color: #FFFFFF;
+   background-color: #1F98F0;
+   padding: 10px 35px; 
+   border: none;
+   margin-left: -8px;
+
+   &:hover {
+      background-color: #FFFFFF;
+      color: #1F98F0;
+   }
+}
+
+.list {
+   margin-top: -50px;
+}
+
+.site-footer__supportlist {
+   margin-left: 50px;
+}
+
+@media only screen and (max-width:1225px) {
+   
+   .site-footer__content {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .site-footer__text-wrapper {
+      text-align: center;
+   }
+}
+
+@media only screen and (max-width:885px) {
+
+   .site-footer__input {
+      padding-right: 0;
+      padding-right: 50px;
+   }
+}
+
+@media only screen and (max-width:815px) {
+
+   .site-footer__list-wrapper {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .site-footer__button {
+      display: block;
+      border-radius: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+   }
+
+   .site-footer__supportlist {
+      margin-left: 0;
+      margin-bottom: 50px;
+      text-align: center;
+   }
+
+   .site-footer__text {
+      max-width: 250px;
+   }
+
+}
